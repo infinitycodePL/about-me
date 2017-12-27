@@ -1,7 +1,5 @@
 # About me
 
-#### Bootstrap 4 theme inspired by about.me page's template. 
-
 The site is fully responsive.  
   
   Check it live here: http://lechrudnicki.com
