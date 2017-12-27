@@ -1,6 +1,7 @@
-# About me
+# About me - Bootstrap 4 theme
 
-The site is fully responsive. You can check it live here: http://lechrudnicki.com
+The site is fully responsive.  
+Live: http://lechrudnicki.com
 
 ***
 ### Getting started
