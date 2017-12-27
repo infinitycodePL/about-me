@@ -1,8 +1,6 @@
 # About me
 
-The site is fully responsive.  
-  
-  Check it live here: http://lechrudnicki.com
+The site is fully responsive. You can check it live here: http://lechrudnicki.com
 
 ***
 ### Getting started
