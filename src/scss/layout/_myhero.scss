@@ -1,0 +1,27 @@
+.myhero {
+    background: url($mybg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.myhero--vhw {
+    height: $myhero-size;
+}
+
+%headerfont {
+    color: $header-fcolor;
+    font-weight: 400;
+    text-shadow: 1px 2px #000;
+    letter-spacing: 2px;
+}
+
+.name {
+    @extend %headerfont;
+    font-size: $name-fsize;
+}
+
+.pro {
+    @extend %headerfont;
+    font-weight: 300;
+    font-size: $pro-fsize;
+}

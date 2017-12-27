@@ -1,0 +1,56 @@
+@include media-breakpoint-up(lg) {
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .myhero--vhw {
+        height: 100vh;
+        width: 62vw;
+    }
+
+    .myabout--vhw {
+        height: 95vh;
+        width: 38vw;
+    }
+
+    .mybottom--vhw {
+        height: 5vh;
+        width: 38vw;
+    }
+
+    .myabout {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .name,
+    .pro {
+        color: #000;
+        text-shadow: 2px 2px #fff;
+    }
+
+    .mybottom__icon {
+
+        .svg {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+}
+
+@include media-breakpoint-only(sm) {
+
+    .myhero--vhw {
+        height: 40vh;
+    }
+
+}

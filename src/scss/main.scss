@@ -1,0 +1,15 @@
+// Import bootsrap
+@import 'vendor/bootstrap.scss';
+
+// Import theme variables
+@import 'partials/myconfig.scss';
+
+// Import theme layout
+@import 'layout/myhero.scss';
+@import 'layout/mylinks.scss';
+@import 'layout/myabout.scss';
+@import 'layout/mybottom.scss';
+
+// Import components
+// Import theme responsive
+@import 'layout/responsive.scss';
