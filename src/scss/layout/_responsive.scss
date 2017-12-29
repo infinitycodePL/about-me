@@ -1,4 +1,26 @@
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(sm) {
+    .myhero--vhw {
+        height: 35vh;
+    }
+
+    .name {
+        font-size: 1.25rem;
+    }
+
+    .pro {
+        font-size: 1rem;
+    }
+
+    .myabout__cta {
+
+        .btn {
+            font-size: 1rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+
     .container-fluid {
         display: flex;
         flex-direction: row;
@@ -13,22 +35,30 @@
 
     .myhero--vhw {
         height: 100vh;
-        width: 62vw;
+        width: 60vw;
     }
 
     .myabout--vhw {
-        height: 95vh;
-        width: 38vw;
+        height: 90vh;
+        width: 40vw;
     }
 
     .mybottom--vhw {
-        height: 5vh;
-        width: 38vw;
+        height: 10vh;
+        width: 40vw;
     }
 
     .myabout {
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
+    }
+
+    .name {
+        font-size: 1.75rem;
+    }
+
+    .pro {
+        font-size: 1rem;
     }
 
     .name,
@@ -37,20 +67,31 @@
         text-shadow: 2px 2px #fff;
     }
 
-    .mybottom__icon {
-
-        .svg {
-            width: 32px;
-            height: 32px;
+    .myabout__cta {
+        p {
+            font-size: .8rem;
+        }
+        .btn {
+            font-size: 1.25rem;
         }
     }
-
 }
 
-@include media-breakpoint-only(sm) {
+@include media-breakpoint-up(lg) {
 
-    .myhero--vhw {
-        height: 40vh;
+    .myabout--vhw {
+        height: 80vh;
+        width: 40vw;
     }
 
+    .mybottom--vhw {
+        height: 20vh;
+        width: 40vw;
+    }
+
+    .myabout__cta {
+        p {
+            font-size: 1rem;
+        }
+    }
 }
